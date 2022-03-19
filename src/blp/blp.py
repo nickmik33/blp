@@ -489,6 +489,7 @@ class BlpQuery(BlpSession):
         "FieldListRequest": "//blp/apiflds",
         "instrumentListRequest": "//blp/instruments",
         "GetFills": "//blp/emsx.history",
+        "PortfolioDataRequest": "//blp/refdata",
     }
 
     def __init__(
